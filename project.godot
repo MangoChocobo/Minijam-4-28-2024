@@ -14,6 +14,10 @@ config/name="Minijam-4-28-2024"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[dotnet]
+
+project/assembly_name="Minijam-4-28-2024"
+
 [rendering]
 
 renderer/rendering_method="mobile"
