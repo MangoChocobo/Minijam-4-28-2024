@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://bipgpa3ar5s1s"]
+[gd_scene load_steps=3 format=3 uid="uid://bipgpa3ar5s1s"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_h3c3g"]
+[ext_resource type="Texture2D" uid="uid://cxfj1fbudhmf7" path="res://assets/characters.png" id="2_bkdnp"]
 
 [node name="Player" type="Node2D"]
+script = ExtResource("1_h3c3g")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(5, 5)
+texture = ExtResource("2_bkdnp")
+region_enabled = true
+region_rect = Rect2(34, 1, 16, 16)
